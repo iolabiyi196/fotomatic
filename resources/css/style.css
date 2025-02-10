@@ -44,6 +44,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 99;
 }
 
 header .content {
@@ -221,6 +222,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  height: 39.68rem;
 }
 
 .feature {
@@ -233,11 +235,11 @@ header .mobile {
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 0 32px;
 }
 
 .image-container img {
-  margin: 32px 32px 40px 32px;
+  margin: 2rem 2rem 2.5rem 2rem;
   height: 65%;
   width: 90%;
 }
@@ -284,6 +286,8 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
+  position: relative;
+  top: 175px;
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
