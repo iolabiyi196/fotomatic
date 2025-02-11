@@ -226,7 +226,7 @@ header .mobile {
 
 #features-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
@@ -234,14 +234,14 @@ header .mobile {
 .feature {
   flex: 1;
   /* padding: 2rem; */
-  margin: 0px 2.375em;
-  height: 635px;
-  width: 640px;
+  margin: 0px 38px;
+  max-height: 635px;
+  max-width: 640px;
   background-color: white;
 }
 
 .feature .image-container {
-  /* margin: 0 32px; */
+  margin: 0 32px;
 }
 
 .image-container img {
@@ -294,7 +294,7 @@ header .mobile {
 
 #filters-section {
   position: relative;
-  top: 175px;
+  /* top: 175px; */
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
