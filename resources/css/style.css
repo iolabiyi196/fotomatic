@@ -244,7 +244,7 @@ header .mobile {
   margin: 0 32px;
 }
 
-.image-container img {
+.feature .image-container img {
   margin: 2rem;
   margin-bottom: 2.5rem;
   height: 65%;
@@ -295,7 +295,7 @@ header .mobile {
 #filters-section {
   position: relative;
   /* top: 175px; */
-  padding: 4rem 0;
+  padding: 4rem 1%;
   background-color: #4a4a4a;
 }
 
@@ -318,8 +318,9 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
+  flex-wrap: nowrap;
   max-width: 100%;
-  padding: 0 1%;
 }
 
 @media only screen and (max-width: 760px) {
